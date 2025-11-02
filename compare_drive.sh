@@ -4,7 +4,7 @@ export HOME="/tmp"
 
 ACTION="$1"  # "compare" or "sync"
 FOLDER="$2"  # subfolder name
-BASE="/var/www/files/dietpi_userdata/DRIVE_AD"
+BASE="/var/www/files/dietpi_userdata/DRIVE_AD" #CHANGE WITH YOUR OWN PATH TO DRIVE BACKUP HERE
 LOCAL_DIR="$BASE/$FOLDER"
 REMOTE="gdrive:$FOLDER"
 TMP_DIR="/var/www/files/tmp"
