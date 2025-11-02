@@ -37,6 +37,8 @@ The PHP dashboard (`compare.php`) lets you:
 
 ## 🔧 Bash Script Usage
 
+You can also use the script to comapre or sync directly without the PHP page:
+
 ```bash
 # Compare only
 sudo /usr/local/bin/compare_drive.sh compare FOLDER_NAME
