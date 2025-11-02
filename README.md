@@ -4,7 +4,7 @@ A lightweight PHP + Bash system for comparing and syncing local folders with Goo
  
 ---
 
-## 🖥️ Web Dashboard
+## 🖥️ Simple but powerfull Web Dashboard
 
 ![Folder selection](screen.jpg)
 
