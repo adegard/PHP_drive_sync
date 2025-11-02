@@ -5,13 +5,15 @@ A lightweight PHP + Bash system for comparing and syncing local folders with Goo
  ![Folder selection](screen.jpg)
 ---
 
-## 🚀 Features
+## 🖥️ Web Dashboard
 
-- Compare local and remote folders
-- Detect missing files on either side
-- Sync missing files (upload/download)
-- Web dashboard with folder selection
-- Timestamped logs of all operations
+The PHP dashboard (`compare.php`) lets you:
+
+- Select a subfolder from `DRIVE_AD`
+- Compare it with the matching Google Drive folder
+- View missing files
+- Trigger sync operations
+- View logs in real time
 
 ---
 
@@ -57,17 +59,7 @@ If you store your config at /etc/rclone.conf, use:
 ```bash
 rclone --config=/etc/rclone.conf lsf gdrive:
 ```
-## 🖥️ Web Dashboard
 
-The PHP dashboard (`compare.php`) lets you:
-
-- Select a subfolder from `DRIVE_AD`
-- Compare it with the matching Google Drive folder
-- View missing files
-- Trigger sync operations
-- View logs in real time
-
----
 
 ## 🔧 Bash Script Usage
 
