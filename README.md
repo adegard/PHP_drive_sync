@@ -1,7 +1,7 @@
 # PHP_drive_sync
 
 A lightweight PHP + Bash system for comparing and syncing local folders with Google Drive using `rclone`. Designed for home servers running DietPi or Ubuntu
- 
+
 ---
 
 ## 🖥️ Simple but powerfull Web Dashboard
@@ -25,6 +25,17 @@ update the BASE folder of your Drive backup locally (eg. this is mine below):
 BASE="/var/www/files/dietpi_userdata/DRIVE_AD"
 
 ---
+
+## 🔧 Bash Script Usage [OPTIONAL]
+
+You can also use the script to comapre or sync directly without the PHP page:
+
+```bash
+# Compare only
+sudo /usr/local/bin/compare_drive.sh compare FOLDER_NAME
+```
+---
+
 ## ⚙️ Rclone Setup (Google Drive)
 Install rclone
 
@@ -62,15 +73,3 @@ rclone --config=/etc/rclone.conf lsf gdrive:
 ```
 
 
-## 🔧 Bash Script Usage
-
-You can also use the script to comapre or sync directly without the PHP page:
-
-```bash
-# Compare only
-sudo /usr/local/bin/compare_drive.sh compare FOLDER_NAME
-```
-# Compare and sync
-
-🛠️ Requirements
-rclone configured with Google Drive remote
