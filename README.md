@@ -2,7 +2,7 @@
 
 
 A lightweight PHP + Bash system for comparing and syncing local folders with Google Drive using `rclone`. Designed for home servers running DietPi or Ubuntu
- ![Folder selection](screenshots/screen.jpg)
+ ![Folder selection](screen.jpg)
 ---
 
 ## 🚀 Features
