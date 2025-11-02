@@ -17,7 +17,8 @@ A lightweight PHP + Bash system for comparing and syncing local folders with Goo
 
 ## 📦 Installation
 
-update the BASE folder of your Drive backup locally (this is mine below):
+update the BASE folder of your Drive backup locally (eg. this is mine below):
+
 BASE="/var/www/files/dietpi_userdata/DRIVE_AD"
 
 ---
