@@ -15,12 +15,10 @@ A lightweight PHP + Bash system for comparing and syncing local folders with Goo
 
 ---
 
-## 📦 Folder Structure
+## 📦 Installation
 
-/usr/local/bin/compare_drive.sh # Bash script for compare/sync 
-/var/www/html/compare.php # Web dashboard 
-/var/www/files/dietpi_userdata/DRIVE_AD/ # Root folder for sync -> TO BE UPDATED
-/var/www/files/tmp/folder_comparison.log # Log output
+update the BASE folder of your Drive backup locally (this is mine below):
+BASE="/var/www/files/dietpi_userdata/DRIVE_AD"
 
 ---
 
