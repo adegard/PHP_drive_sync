@@ -1,19 +1,20 @@
 # PHP_drive_sync
 
-
 A lightweight PHP + Bash system for comparing and syncing local folders with Google Drive using `rclone`. Designed for home servers running DietPi or Ubuntu
- ![Folder selection](screen.jpg)
+ 
 ---
 
 ## 🖥️ Web Dashboard
 
+![Folder selection](screen.jpg)
+
 The PHP dashboard (`compare.php`) lets you:
 
-- Select a subfolder from `DRIVE_AD`
+- Select a subfolder from your local backup folder of DRIVE
 - Compare it with the matching Google Drive folder
 - View missing files
 - Trigger sync operations
-- View logs in real time
+- View logs 
 
 ---
 
